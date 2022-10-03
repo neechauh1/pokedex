@@ -1,0 +1,28 @@
+.data-info-container {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+.data-info-container .inner-container {
+    display: block;
+}
+
+.data-info-container .inner-container span {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #2E3156;
+}
+
+.data-info-container .inner-container span:nth-child(1) {
+    font-weight: 700;
+}
+
+.data-info-container .inner-container span:nth-child(2) {
+    text-transform: capitalize;
+}

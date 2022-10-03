@@ -1,0 +1,125 @@
+.option-container .option-label {
+    margin: 0 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D5F7E;
+}
+
+.option-label span {
+    font-weight: 400;
+}
+
+.option-container .option-btn {
+    height: 57px;
+    width: 194px;
+    left: 705px;
+    top: 24px;
+    border-radius: 8px;
+    background: #C9DDE2;
+    margin: 0 21px;
+    padding: 0 24.5px;
+    cursor: pointer;
+    margin-top: 5px;
+
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s linear;
+}
+
+.option-container button {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: #C9DDE2;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    padding: 0;
+    transition: 0.5s linear;
+}
+
+.option-container button span {
+    text-transform: capitalize;
+}
+
+.option-container .arrow {
+    border: 1px solid #2E3156;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.option-container .option-btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2E3156;
+}
+
+.option-container button .btn-more-text {
+    font-weight: bold;
+}
+
+.list {
+    padding: 10px 5px;
+    margin: 4px 21px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(46, 49, 86, 0.4);
+    border-radius: 8px;
+    animation-name: listAnimation;
+    animation-duration: 1s;
+    overflow-y: hidden;
+}
+
+.list .option {
+    position: relative;
+    min-height: 24px;
+    display: block;
+    margin: 0 12px;
+    border-bottom: 1px solid rgba(46, 49, 86, 0.2);
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.list .option:last-child {
+    border: none;
+}
+
+.list .option span {
+    margin-left: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-height: 14px;
+    text-transform: capitalize;
+}
+
+.list .option input {
+    accent-color: #000;
+}
+
+.white-class {
+    background-color: #fff !important;
+}
+
+@keyframes listAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

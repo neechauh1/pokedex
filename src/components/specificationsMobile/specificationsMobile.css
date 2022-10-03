@@ -1,0 +1,32 @@
+.spec-container-mobile {
+    display: block;
+    min-width: 100%;
+}
+
+.spec-container-mobile .abilities-and-types {
+    display: grid;
+    grid-template-columns: 55% auto;
+    margin-bottom: 17px;
+}
+
+.spec-container-mobile .spec {
+    display: block;
+}
+
+.spec-container-mobile .spec span {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #2E3156;
+}
+
+.spec-container-mobile .spec span:nth-child(1) {
+    font-weight: 700;
+}
+
+.spec-container-mobile .spec span:nth-child(2) {
+    text-transform: capitalize;
+}

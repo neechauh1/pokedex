@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Test case with More 1`] = `
+<div
+  className="option-container"
+>
+  <div
+    className="option-label"
+  >
+    <span />
+  </div>
+  <div
+    className="option-btn "
+    onClick={[Function]}
+  >
+    <button
+      aria-label="optionbutton"
+      className=""
+    >
+      <span />
+       
+      <span
+        className="btn-more-text"
+      />
+    </button>
+    <i
+      className="arrow"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,68 @@
+.mobile-filter-wrapper {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #FFF;
+}
+
+.mobile-filter-wrapper .filter-header {
+    padding: 28px 23px 0 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-filter-wrapper .filter-header span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+    color: #2E3156;
+}
+
+.mobile-filter-wrapper .filter-header .cross-icon {
+    margin-right: 22px;
+}
+
+.mobile-filter-wrapper .filter-header .cross-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-filter-wrapper .header-border {
+    margin: 0 23px;
+    border-top: 1px solid rgba(46, 49, 86, 0.15);
+}
+
+.mobile-filter-wrapper .buttons-sticky {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(46, 49, 86, 0.15);
+    box-shadow: 0 0 10px 0 rgba(46, 49, 86, 0.25);
+}
+
+.mobile-filter-wrapper .buttons-sticky button {
+    height: 37px;
+    width: 138.6px;
+    left: 178.4px;
+    border-radius: 8px;
+    color: #2E3156;
+    background-color: #FFF;
+    border: 1px solid #2E3156;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 18px 0 12px 0;
+}
+
+.mobile-filter-wrapper .buttons-sticky button:nth-child(2) {
+    background: #2E3156;
+    color: #FFF;
+}

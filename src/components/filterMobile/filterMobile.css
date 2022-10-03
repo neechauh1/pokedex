@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .filter-container {
+        height: 57.5px;
+        width: 77px;
+        border-radius: 8px;
+        background: #2E3156;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .filter-container img {
+        width: 70%;
+        height: 70%;
+    }
+}

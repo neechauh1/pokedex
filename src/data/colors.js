@@ -1,0 +1,23 @@
+const COLORS = {
+	normal: '#DDCBD0',
+	fighting: '#FCC180',
+	flying: '#B2D2E8',
+	poison: '#CFB7ED',
+	ground: '#F4D1A6',
+	rock: '#C5AEAB',
+	bug: '#C1E0C8',
+	ghost: ' #07C207',
+	steel: '#C2D4CE',
+	fire: '#EDC2C4',
+	water: '#CBD5ED',
+	grass: '#C0D4C8',
+	electric: '#E2E2A0',
+	psychic: '#DDC0CF',
+	ice: '#C707DF',
+	dragon: '#CADCDF',
+	drk: '#C6C5E3',
+	fairy: '#E4C0CF',
+	unknown: '#C0DFDD',
+	shadow: '#CACACA',
+};
+export default COLORS;

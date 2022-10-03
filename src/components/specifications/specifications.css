@@ -1,0 +1,28 @@
+.spec-container {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+.spec-container .spec {
+    display: block;
+}
+
+.spec-container .spec span {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #2E3156;
+}
+
+.spec-container .spec span:nth-child(1) {
+    font-weight: 700;
+}
+
+.spec-container .spec span:nth-child(2) {
+    text-transform: capitalize;
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image should render correctly 1`] = `
+<div
+  className="popup-container"
+>
+  <div
+    className="popup-text"
+  >
+    <span />
+  </div>
+  <div
+    className="popup-close-icon"
+  >
+    <img
+      alt="cross-icon"
+      onClick={[Function]}
+      src="./images/simple-cross.svg"
+    />
+  </div>
+</div>
+`;

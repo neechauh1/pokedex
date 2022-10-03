@@ -1,0 +1,43 @@
+.popup-container {
+    margin-top: 43px;
+    background: #2E3156;
+    box-shadow: 0px 4px 20px #2E3156;
+    border-radius: 8px;
+    z-index: 300;
+    display: flex;
+    padding: 24px;
+}
+
+.popup-text span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.popup-close-icon {
+    padding: 0 27.5px;
+}
+
+.popup-close-icon img {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .popup-container {
+        margin-top: -30px;
+        background: #2E3156;
+        box-shadow: 0px 4px 20px #2E3156;
+        border-radius: 8px;
+        z-index: 400;
+        display: flex;
+        padding: 22px;
+    }
+    .popup-close-icon {
+        padding: 0;
+    }
+}

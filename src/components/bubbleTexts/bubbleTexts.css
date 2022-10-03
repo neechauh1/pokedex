@@ -1,0 +1,20 @@
+.bubbles-container {
+    display: flex;
+}
+
+.bubbles-container .bubble-wrapper {
+    padding: 0 4px;
+    margin: 0 2px;
+    border: 1px solid #2E3156;
+    border-radius: 5px;
+}
+
+.bubbles-container .bubble-wrapper span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2E3156;
+    text-transform: capitalize;
+}

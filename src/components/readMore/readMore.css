@@ -1,0 +1,22 @@
+.read-more span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2E3156;
+}
+
+.read-more span:nth-child(2) {
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.read-more span span {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+   
+}

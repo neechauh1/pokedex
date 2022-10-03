@@ -1,0 +1,196 @@
+.details-page-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(46, 49, 86, 0.9);
+    backdrop-filter: blur(5px);
+    z-index: 200;
+}
+
+.details-page-container {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    right: 25%;
+    min-width: 50%;
+    min-height: 100%;
+    z-index: 100;
+    background: #DEEDED;
+    box-shadow: -10px 4px 130px #2E3156;
+    padding: 41px;
+}
+
+.section-top {
+    display: flex;
+    min-width: 100%;
+    max-height: 277px;
+}
+
+.section-top .card-box {
+    min-width: 199px;
+    max-height: 277px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #2E3156;
+    border-radius: 8px;
+}
+
+.section-top .card-box img {
+    width: 153px;
+    height: 153px;
+}
+
+.section-top .pokemon-description {
+    margin-left: 43px;
+    width: 100%;
+}
+
+.section-top .pokemon-description .description-header {
+    display: flex;
+    max-height: 35px;
+}
+
+.section-top .pokemon-description .description-header span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: #2E3156;
+    border-right: 1px solid #5D5F7E;
+    padding-right: 36px;
+}
+
+.section-top .pokemon-description .description-header span:nth-child(2) {
+    font-weight: 400;
+    padding: 0 36px;
+}
+
+.section-top .pokemon-description .description-header .cross-icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 36px;
+}
+
+.section-top .pokemon-description .description-header .cross-icon img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.section-top .pokemon-description .description {
+    margin-top: 43px;
+}
+
+.section-middle {
+    display: flex;
+    min-width: 100%;
+    max-height: 277px;
+}
+
+.section-bottom {
+    display: flex;
+    min-width: 100%;
+    max-height: 277px;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.card-and-description-mobile {
+    display: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    .section-top {
+        display: block;
+        min-width: 100%;
+    }
+    .details-page-wrapper {
+        position: fixed;
+        left: 0;
+        top: 0;
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .details-page-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+        max-height: 100%;
+        z-index: 100;
+        background: #DEEDED;
+        padding: 95px 33px;
+    }
+    .section-top .pokemon-description .description-header{
+        display: none;
+    }
+    .mobile-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-header .mobile-name-id {
+        display: block;
+    }
+    .mobile-header .mobile-name-id span:nth-child(1){
+        display: block;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 0.06em;
+        color: #2E3156;
+    }
+    .mobile-header .mobile-name-id span:nth-child(2) {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 0.06em;
+        color: #2E3156;
+    }
+    .mobile-header .mobile-cross img {
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+    }
+    .card-and-description-mobile {
+        display: flex;
+        min-height: 250px;
+        margin-top: 32px;
+    }
+    .section-top .card-and-description-mobile .card-box {
+        min-width: 159px;
+        max-height: 221.32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px dashed #2E3156;
+        border-radius: 8px;
+        z-index: -10;
+    }
+    .section-top .card-and-description-mobile .pokemon-description {
+        margin-left: 24px;
+        width: 100%;
+    }
+
+    .card-and-description-mobile .pokemon-description .description {
+        margin-top: 0;
+    }
+    .section-middle {
+        display: flex;
+        min-width: 100%;
+        max-height: auto;
+    }
+}

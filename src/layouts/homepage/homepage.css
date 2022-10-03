@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    height: 131px;
+}
+
+.card-container {
+    display: flex;
+    margin-top: 41px;
+    padding: 0 51px;
+    flex-wrap: wrap;;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        position: absolute;
+        max-width: 100%;
+    }
+    .card-container {
+        margin-top: 31px;
+        padding: 0 28px;
+        justify-content: space-between;
+    }
+}

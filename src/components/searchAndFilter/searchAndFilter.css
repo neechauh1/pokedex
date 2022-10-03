@@ -1,0 +1,34 @@
+.search-and-filter-container {
+    position: relative;
+    display: flex;
+    max-height: 81px;
+    z-index: 10;
+}
+
+.option-block {
+    align-items: flex-end;
+}
+
+.filter-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .search-and-filter-container {
+        margin-top: 35px;
+        justify-content: space-between;
+    }
+    .search-and-filter-container .search-block {
+        max-width: 70%;
+    }
+    .filter-mobile {
+        display: flex;
+        position: relative;
+        width: 100%;
+        padding-left: 14px;
+        padding-top: 5px;
+    }
+    .option-block {
+        display: none;
+    }
+}
